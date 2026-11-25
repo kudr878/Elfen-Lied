@@ -5,6 +5,9 @@ import img4 from './assets/items/img4.svg'
 import img5 from './assets/items/img5.svg'
 import img6 from './assets/items/img6.svg'
 import img7 from './assets/items/img7.svg'
+import blog1 from './assets/blog/blog1.png'
+import blog2 from './assets/blog/blog2.png'
+import blog3 from './assets/blog/blog3.png'
 
 export const categories = [
   { title: 'Напольные зеркала', count: 4, src: img4 },
@@ -20,13 +23,13 @@ export const items = [
 ]
 
 export const posts = [
-  { title: 'Новая коллекция кресел', src: img2, minutes: 3 },
-  { title: 'Световой дизайн в интерьере', src: img1, minutes: 3 },
-  { title: 'Как выбрать шкаф в спальню', src: img7, minutes: 3 },
-  { title: 'Зеркала в интерьере', src: img4, minutes: 4 },
-  { title: 'Как выбрать торшер', src: img5, minutes: 3 },
-  { title: 'Акценты для гостиной', src: img3, minutes: 5 },
-  { title: 'Уютное место для чтения', src: img6, minutes: 4 },
-  { title: 'Столы для небольших комнат', src: img7, minutes: 3 },
-  { title: 'Декор и детали', src: img3, minutes: 2 },
+  { title: 'Новая коллекция кресел', src: blog1, minutes: 3 },
+  { title: 'Световой дизайн в интерьере', src: blog2, minutes: 3 },
+  { title: 'Как выбрать шкаф в спальню', src: blog3, minutes: 3 },
+  { title: 'Зеркала в интерьере', src: blog1, minutes: 4 },
+  { title: 'Как выбрать торшер', src: blog2, minutes: 3 },
+  { title: 'Акценты для гостиной', src: blog3, minutes: 5 },
+  { title: 'Уютное место для чтения', src: blog1, minutes: 4 },
+  { title: 'Столы для небольших комнат', src: blog2, minutes: 3 },
+  { title: 'Декор и детали', src: blog3, minutes: 2 },
 ]

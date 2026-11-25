@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import { posts } from '../data'
+import rectangle from '../assets/svg/rectangle-blog.svg'
 
 export default function Blog() {
-  const [page, setPage] = useState(0)
-  const pages = Array.from({ length: Math.ceil(posts.length / 3) }, (_, i) => i)
 
   return (
     <section>
-
+      <h2 className='uppercase text-[60px] font-medium'>Блог</h2>
     </section>
   )
 }

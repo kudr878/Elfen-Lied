@@ -3,14 +3,11 @@ import ellips from '../assets/svg/ellips.svg'
 import arrowDown from '../assets/svg/arrow-down.svg'
 import { categories } from '../data'
 
-
 export default function Categories() {
   return (
-    <section>
-
+    <section className='px-[clamp(16px,2.4vw,60px)]'>
       <h2 className='uppercase text-[60px] text-center pb-[70px] font-medium'>Категории</h2>
-
-      <ul className='flex gap-[clamp(16px,3vw,65px)] justify-between px-[clamp(16px,2.4vw,45px)]'>
+      <ul className='flex gap-[clamp(16px,3vw,65px)] justify-between '>
         {categories.map((category) => (
           <li key={category.title} className='@container relative h-[520px] min-w-0 flex-1'>
             <h3 className='uppercase text-[28px] max-w-[150px] leading-[36px] font-medium pt-[40px]'>{category.title}</h3>
